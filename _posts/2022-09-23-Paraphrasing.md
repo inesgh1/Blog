@@ -36,7 +36,7 @@ To  set up Pegasus, we need to install Pytorch first. Pytorch is a Python packag
 ``` 
 Running this code should download a bunch of files that look like this. The Pytorch model bin is a pretty large file, so don’t worry if it takes a bit of time to download it.
 
-![image](https://github.com/inesgh1/Paraphrasing-Web-App/blob/main/set_peagasus.png)
+![image](/main/_posts/img/set_peagasus.png)
 
 # Access the model
 ``` 
@@ -55,7 +55,7 @@ num_beams = 10
 get_response(context,num_beams)
 ```
 #### we'll get a result like that :
-![image](https://github.com/inesgh1/Paraphrasing-Web-App/blob/main/outputof%20test.png)
+![image](https://github.com/inesgh1/Blog/blob/main/_posts/img/outputof%20test.png)
 # Break the Text into Individual Sentences
 We got ten different paraphrased sentences by the model because we set the number of responses to 10. Paraphrase a paragraph: The model works efficiently on a single sentence. Hence, we have to break a paragraph into single sentences. The code below takes the input paragraph and splits it into a list of sentences. Then we apply a loop operation and paraphrase each sentence in the iteration.
 
@@ -75,7 +75,7 @@ for i in sentence_list:
 ```
 ##### Here is what we get as a result :
 
-![result image](https://github.com/inesgh1/Paraphrasing-Web-App/blob/main/result%20list.png)
+![result image](https://github.com/inesgh1/Blog/blob/main/_posts/img/result%20list.png)
 
 Combine the separated lists into a paragraph:
 first we need to create a second split using the following code.
