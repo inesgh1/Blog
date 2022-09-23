@@ -36,7 +36,7 @@ To  set up Pegasus, we need to install Pytorch first. Pytorch is a Python packag
 ``` 
 Running this code should download a bunch of files that look like this. The Pytorch model bin is a pretty large file, so don’t worry if it takes a bit of time to download it.
 
-![image](/main/_posts/img/set_peagasus.png)
+![image](/assets/set_peagasus.png)
 
 # Access the model
 ``` 
