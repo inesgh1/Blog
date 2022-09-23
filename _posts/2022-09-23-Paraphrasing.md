@@ -1,4 +1,5 @@
 ---
+layout:post
 title: "Paraphrasing Model"
 date: 2022-09-23
 ---
